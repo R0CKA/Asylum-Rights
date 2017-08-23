@@ -1,0 +1,101 @@
+@font-face {
+font-family: "News Gothic";
+src: url("fonts/News Gothic Std Bold.ttf");
+src: 
+url("fonts/News Gothic Std Bold.ttf") format("ttf"),
+}
+
+@font-face {
+font-family: "Nid Sans";
+src: url("fonts/nidsans-webfont.ttf");
+src: 
+url("fonts/nidsans-webfont.ttf") format("ttf"),
+}
+
+@font-face {
+font-family: "Niagra";
+src: url("fonts/NIAGSOL.TTF");
+src: 
+url("fonts/NIAGSOL.TTF") format("TTF"),
+}
+
+@font-face {
+font-family: "Old Serif";
+src: url("fonts/Old Serif Gut.ttf");
+src: 
+url("fonts/Old Serif Gut.ttf") format("ttf"),
+}
+
+body {
+    background-color:#d6d6d6;
+}
+
+#header {
+    background:rgba(255,255,255,0.9);
+    /*background-image: url(image resources/dust.jpg);*/
+    height:10.05em;
+    width:100%;
+    text-align:center;
+    margin-top:-0.5em;
+    margin-left:-0.5em;
+    position:fixed;
+    clear:both;
+    display:block;        
+}
+
+#Title {
+    font-family:"News Gothic";
+    color:black;
+    font-size:3em;
+    display:block;
+    text-align:center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
+}
+    
+.tabs {
+    display:inline-block;
+    background-color:#7b7b7b;
+    height:2.5em;
+    width:49.7%;
+    font-size: 1.5em;
+    color:white;
+    
+}
+
+.tabs p {
+    line-height:0.5em;
+    font-family:'Nid Sans';
+}
+
+.tabs:hover {
+    background-color:#a7a7a7;
+}
+
+#boat {
+    position: absolute;
+    width: 100%;
+    margin-top: 10em;
+    z-index: -2;
+    display: block;
+    text-align: center;
+}
+
+#boat img {
+    width:99%;
+    margin-left: -1%;
+}
+
+h1 {
+    color: black;
+    font-size: 3em;
+    font-family: "Calibri";
+}
+
+#info {
+    color: black;
+    font-size: 2em;
+    font-family: "Calibri";
+}
