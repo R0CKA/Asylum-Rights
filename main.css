@@ -30,12 +30,13 @@ url("fonts/Old Serif Gut.ttf") format("ttf"),
     background-image: url(image%2520resources/boat.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 350vh;
+    height: 365vh;
     width:98vw;
 }
 
 body {
     background: linear-gradient(to bottom right,#398c82,#0f7ab2);
+    background-repeat: no-repeat;
     overflow-x: hidden;
 }
 
